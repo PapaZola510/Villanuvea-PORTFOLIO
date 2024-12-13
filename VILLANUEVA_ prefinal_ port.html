@@ -1,0 +1,468 @@
+<!doctype html> 
+<html>
+    <head>  
+        <title>My Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+         html {
+                scroll-behavior: smooth
+             }
+             
+        @media (max-width: 768px) {
+            #myName {
+                font-size: 30px;
+                padding-bottom: 30px;
+            }
+            p {
+                font-size: 15px;
+                text-align: justify;
+                line-height: 1.8;
+                padding-bottom: 100px;
+            }
+            #aboutMe {
+                font-size: 30px;
+                text-align: justify
+            }
+            p.aboutMe {
+            line-height: 2.5;
+            }   
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+        @media (min-width: 769px) {
+            #myName {
+                font-size: 56px;
+                padding-bottom: 30px;
+            }
+            p {
+                font-size: 29px;
+                padding-bottom: 90px;
+                text-align: center
+            }
+            #aboutMe {
+                font-size: 28px;
+                text-align: center
+            }
+            p.aboutMe {
+                line-height: 1.8;
+            }   
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+
+        .open-calculator-btn {
+                padding: 15px 30px;
+                font-size: 16px;
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                margin-top: 20px;
+        }
+    </style>
+
+    </head>
+
+    <body style="background-color:rgb(71, 4, 4); font-family:monospace ; color: whitesmoke;">
+
+        <div style="position: sticky; top: 0; display: flex; height: 100px; background-color: rgb(90, 4, 4); padding: 10px; justify-content: center; align-items: center; ">
+         <span style="background-color: gainsboro; padding: 10px; margin: 5px; display: flex; flex-direction: column;">
+            <a href="#myName">My Name</a>
+         </span>
+         <span style="background-color: gainsboro; padding: 10px; margin: 5px; display: flex; flex-direction: column;">
+            <a href="#aboutMe">About Me</a>
+         </span>
+         <span style="background-color: gainsboro; padding: 10px; margin: 5px; display: flex; flex-direction: column;">
+            <a href="#skills">My Skills</a>
+         </span>
+         <span style="background-color: gainsboro; padding: 10px; margin: 5px; display: flex; flex-direction: column;">
+            <a href="#projects">Projects</a>
+         </span>
+         <span style="background-color: gainsboro; padding: 10px; margin: 5px; display: flex; flex-direction: column;">
+            <a href="#workExperience">Work Experience</a>
+        </span>
+        <span style="background-color: gainsboro; padding: 10px; margin: 5px; display: flex; flex-direction: column;">
+            <a href="#contactMe">Contact Me</a>
+        </span>
+     </div>
+        
+        <center><h1 id="myName" style ="padding-top: 120px;">Gabriel Ximenes G. Villanueva</h1></center>
+        <p style=" line-height: 3 ; font-size: 24px;">Currently, I'm in my second year as a Computer Science student, passionately pursuing my dream of becoming a web/game developer. I am deeply committed to honing my skills and continually expanding my knowledge. I strive to be a high-quality individual in both my professional and personal life, understanding the importance of integrity, communication, and teamwork in the tech industry. I embrace every chance to develop not only my technical skills but also my ability to work effectively with others.</p>
+
+        <h2 id="aboutMe" style ="padding-top: 300px;">About Me:</h2>
+    <hr style="border: 1px solid gold">
+        <center><img src="https://blogger.googleusercontent.com/img/a/AVvXsEhM5WXhbj4IiqLI86sP1d37edS4RCv8SIVsjkHFB14JqO-QB3Becuz5-vQbNHx8u8_c7lbFgrKoNupSEF00T2Z3c04xGla05naTvVXiB_cQRpQV3CDsJoyatWazJN36dWTsFmbrM1wjt8nwKa0WVPI5dYjMEr8WfAd-qkyQCHniIOODgTTqXiP_CGox-dc"
+            style="width: 150px; height: 250px; border-radius: 50%; border: 5px solid goldenrod; object-fit: cover;"></center>
+    <p style="line-height: 1.8; margin-bottom: 100px; font-size: 24px;">I may not be innately gifted when it comes to coding, but I am a hardworking individual committed to enhancing my skills and passionate about the art of programming.   I thrive when faced with challenges, as they spark my creativity and drive me to find innovative solutions. Outside of my studies, I enjoy playing video games and listening to music. Gaming lets me unwind and escape into immersive worlds. Meanwhile, music acts as a powerful tool for my concentration, helping me stay focused while I work on projects or study. </p>
+
+        <h2 id="skills" style ="padding-top: 120px;">My Skills:</h2>
+    <hr style="border: 1px solid gold">
+    <ul id="skillsSection" style="display: flex; flex-wrap: wrap; list-style-type: none; padding: 0; margin: 0; gap: 20px; justify-content: center; margin-bottom: 400px">
+        <li style="background-color: lightgray; border: 2px solid darkgray; border-radius: 8px; padding: 15px; ; margin: 10px; width: 30%; text-align: center; color: blue;">
+            <span style ="font-size: 35px;">C++</span>
+        </li>
+        <li style="background-color: lightgray; border: 2px solid darkgray; border-radius: 8px; padding: 15px; margin: 10px; width: 30%; text-align: center; color: green;">
+            <span style ="font-size: 35px;">Python</span>
+        </li>
+        <li style="background-color: lightgray; border: 2px solid darkgray; border-radius: 8px; padding: 15px; margin: 10px; width: 30%; text-align: center; color: orangered;">
+            <span style ="font-size: 35px;">Java</span>
+        </li>
+        <li style="background-color: lightgray; border: 2px solid darkgray; border-radius: 8px; padding: 15px; margin: 10px; width: 30%; text-align: center; color: blueviolet;">
+            <span style ="font-size: 35px;">HTML</span>
+        </li>
+        <li style="background-color: lightgray; border: 2px solid darkgray; border-radius: 8px; padding: 15px; margin: 10px; width: 30%; text-align: center; color: brown;">
+            <span style ="font-size: 35px;">CSS</span>
+        </li>
+        <li style="background-color: lightgray; border: 2px solid darkgray; border-radius: 8px; padding: 15px; margin: 10px; width: 30%; text-align: center; color: darkcyan;">
+            <span style ="font-size: 22px;">Javascript</span>
+        </li>
+    </ul>  
+
+    <h2 id="projects" style="padding-top: 120px;">Projects:</h2>
+    <hr style="border: 1px solid gold;">
+    <center>
+      <div style="display: flex; gap: 20px; justify-content: center;margin-top: 250px ; margin-bottom: 330px;"> 
+        <button class="open-calculator-btn" onclick="openCalculator()" style="display: flex; align-items: center; justify-content: center; padding: 32px 20px; background-color: #4caf50; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 1rem;">
+          <img src="https://cdn.iconscout.com/icon/free/png-256/free-calculator-icon-download-in-svg-png-gif-file-formats--ios-13-ios13-ipad-os-14-pack-user-interface-icons-1575939.png" style="width: 20px; height: 20px; margin-right: 10px;">
+          Calculator
+        </button>  
+        <button class="open-todolist-btn" onclick="openTodoList()" style="display: flex; align-items: center; justify-content: center; padding: 12px 20px; background-color: #4caf50; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 1rem;">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCcOs4kAHevyH4b5YoBTCsPssXrFwyOtSvjQ&s" style="width: 20px; height: 20px; margin-right: 10px;">
+          To-Do List
+        </button>
+      </div>
+    </center>
+
+        <h2 id="workExperience" style ="padding-top: 120px;">Work Experience:</h2>
+    <hr style="border: 1px solid gold;">
+            <table style="width: 100%; border: 1px solid gainsboro; margin: 20px; margin-bottom: 430px">
+                 <tr>
+                    <th style="border: 1px solid gainsboro; padding: 20px;">Job Title</th>
+                    <th style="border: 1px solid gainsboro; padding: 20px;">Job Company</th>
+                    <th style="border: 1px solid gainsboro; padding: 20px;">Dates Worked</th>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid gainsboro; padding: 20px;">Java Developer</td>
+                    <td style="border: 1px solid gainsboro; padding: 20px;">University of Saint Anthony (School Project: Electrical Company Interface Simulation)</td>
+                    <td style="border: 1px solid gainsboro; padding: 20px;">May 12, 2024 - May 20, 2024</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid gainsboro; padding: 20px;">C++ and Python Developer</td>
+                    <td style="border: 1px solid gainsboro; padding: 20px;">University of Saint Anthony (Multiple school projects)</td>
+                    <td style="border: 1px solid gainsboro; padding: 20px;">August 2023 - December 2023</td>
+                </tr>
+            </table>
+
+        <h2 id="contactMe" style ="padding-top: 120px;  ">Contact Me:</h2>
+    <hr style="border: 1px solid gold;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" style="width: 20px; vertical-align: middle; margin-right: 8px;">
+                    <a href="mailto:gimogab@gmail.com" style="text-decoration: underline; color: red;">Send me an Email!</a><br>
+
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Facebook_icon_2013.svg" style="width: 20px; vertical-align: middle; margin-right: 8px;">
+                    <a href="https://www.facebook.com/RNG.OutKast/" style="text-decoration: underline; color: blue;">Contact me on Facebook!</a><br>
+
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Instagram-Icon.png" style="width: 20px; vertical-align: middle; margin-right: 8px;">
+                    <a href="https://www.instagram.com/gx.villanueva/" style="text-decoration: underline; color: darkviolet;">Contact me on Instagram!</a><br>
+    <hr style="border: 1px solid gold; margin-bottom: 450px">
+
+           <center><footer style="margin-top: 20px; margin-bottom: 30px;">© 2024 | Gabriel Ximenes G. Villanueva.</footer></center>
+
+           <script>
+            function openCalculator() {
+              const calculatorWindow = window.open("", "_blank", "width=400,height=600");
+              
+              const style = calculatorWindow.document.createElement("style");
+              style.textContent = `
+                body {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  min-height: 100vh;
+                  margin: 0;
+                  background-color: #ffffffde;
+                  color: rgb(0, 0, 0);
+                  transition: background-color 0.3s ease, color 0.3s ease;
+                }
+                #Calc {
+                  background: #ffffffc5;
+                  width: 300px;
+                  border-radius: 10px;
+                  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                  padding: 20px;
+                  transition: background-color 0.3s ease;
+                }
+                #View {
+                  width: 100%;
+                  padding: 20px;
+                  font-size: 1.5rem;
+                  text-align: right;
+                  border: 1px solid #ccc;
+                  border-radius: 5px;
+                  margin-bottom: 15px;
+                  background: #f9f9f9;
+                  box-sizing: border-box;
+                }
+                #Options {
+                  display: grid;
+                  grid-template-columns: repeat(4, 1fr);
+                  gap: 10px;
+                }
+                button {
+                  padding: 20px;
+                  font-size: 1.1rem;
+                  border: none;
+                  border-radius: 10px;
+                  cursor: pointer;
+                  background: #e0e0e0;
+                  transition: background 0.3s;
+                }
+                button:hover {
+                  background: #d0d0d0;
+                }
+                .OpB {
+                  background: #ffc107;
+                  color: #fff;
+                }
+                .OpB:hover {
+                  background: #e0a800;
+                }
+                .Clrb {
+                  background: #f44336;
+                  color: #fff;
+                }
+                .Clrb:hover {
+                  background: #d32f2f;
+                }
+                .equals-btn {
+                  grid-column: span 4;
+                  background: #4caf50;
+                  color: white;
+                }
+                .equals-btn:hover {
+                  background: #388e3c;
+                }
+                body.dark-mode { background-color: #333; color: #f3f3f3; }
+                #Calc.dark-mode { background: #444; }
+                #View.dark-mode { background: #222; color: #fff; }
+              `;
+              calculatorWindow.document.head.appendChild(style);
+          
+              const calcDiv = calculatorWindow.document.createElement("div");
+              calcDiv.id = "Calc";
+              calculatorWindow.document.body.appendChild(calcDiv);
+          
+              const viewInput = calculatorWindow.document.createElement("input");
+              viewInput.id = "View";
+              viewInput.readOnly = true;
+              calcDiv.appendChild(viewInput);
+          
+              const optionsDiv = calculatorWindow.document.createElement("div");
+              optionsDiv.id = "Options";
+              calcDiv.appendChild(optionsDiv);
+          
+              const buttons = [
+                ['7', '8', '9', '+'],
+                ['4', '5', '6', '-'],
+                ['1', '2', '3', 'x'],
+                ['.', '0', 'C', '/'],
+                ['=']
+              ];
+          
+              buttons.forEach(row => {
+                row.forEach(value => {
+                  const button = calculatorWindow.document.createElement("button");
+                  button.textContent = value;
+                  button.onclick = () => buttonClick(value, viewInput);
+                  if (value === 'C') {
+                    button.classList.add("Clrb");
+                  } else if (value === '=') {
+                    button.classList.add("equals-btn");
+                  } else if (['+', '-', 'x', '/'].includes(value)) {
+                    button.classList.add("OpB");
+                  }
+                  optionsDiv.appendChild(button);
+                });
+              });
+          
+              function buttonClick(value, viewInput) {
+                if (value === 'C') {
+                  viewInput.value = '';
+                } else if (value === '=') {
+                  try {
+                    viewInput.value = eval(viewInput.value.replace('x', '*'));
+                  } catch (error) {
+                    viewInput.value = "Error";
+                  }
+                } else {
+                  viewInput.value += value;
+                }
+              }
+          
+              const toggleBtn = calculatorWindow.document.createElement("button");
+            toggleBtn.id = "toggleBtn";
+            toggleBtn.textContent = "Toggle Dark/Light Mode";
+            toggleBtn.onclick = () => {
+            calculatorWindow.document.body.classList.toggle('dark-mode');
+            calcDiv.classList.toggle('dark-mode');
+            viewInput.classList.toggle('dark-mode');
+             };
+
+            toggleBtn.style.position = "absolute";
+            toggleBtn.style.top = "10px";
+            toggleBtn.style.left = "10px";
+            toggleBtn.style.padding = "10px 20px";
+            toggleBtn.style.backgroundColor = "#7ddb3f";
+            toggleBtn.style.color = "white";
+            toggleBtn.style.border = "none";
+            toggleBtn.style.borderRadius = "5px";
+            toggleBtn.style.cursor = "pointer";
+
+            calculatorWindow.document.body.appendChild(toggleBtn);
+            }
+            function openTodoList() {
+                const todoWindow = window.open("", "ToDo List", "width=400,height=600");
+
+                const body = todoWindow.document.body;
+
+                const style = todoWindow.document.createElement("style");
+                style.textContent = `
+                    body {
+                    text-align: center;
+                    background-color: rgb(247, 182, 103);
+                    margin: 0;
+                    font-family: Arial, sans-serif;
+                    }
+                    h1 {
+                    margin-top: 20px;
+                    }
+                    p {
+                    font-size: 0.9rem;
+                    margin-bottom: 20px;
+                    }
+                    .DoList {
+                    list-style-type: none;
+                    padding: 0;
+                    text-align: center;
+                    }
+                    .DoItem {
+                    margin: 20px 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    }
+                    .TaskD {
+                    text-decoration: line-through;
+                    color: rgb(148, 109, 62);
+                    }
+                    .ActnB {
+                    margin-left: 10px;
+                    padding: 5px 10px;
+                    border-radius: 3px;
+                    cursor: pointer;
+                    }
+                    input {
+                    padding: 10px;
+                    width: 80%;
+                    font-size: 1rem;
+                    border-radius: 5px;
+                    margin-bottom: 10px;
+                    border: 1px solid #ccc;
+                    }
+                    button {
+                    padding: 10px;
+                    font-size: 1rem;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    background: #4caf50;
+                    color: white;
+                    }
+                    button:hover {
+                    background: #388e3c;
+                    }
+                `;
+                body.appendChild(style);
+
+                const title = todoWindow.document.createElement("h1");
+                title.textContent = "To-Do List";
+                body.appendChild(title);
+
+                const instruction = todoWindow.document.createElement("p");
+                instruction.textContent = "Enter a task to put in the list. Click on the task to mark it as 'Done'. Click on 'Delete' to remove the task.";
+                body.appendChild(instruction);
+
+                const taskInput = todoWindow.document.createElement("input");
+                taskInput.id = "taskInput";
+                taskInput.placeholder = "Add a new task";
+                body.appendChild(taskInput);
+
+                const addTaskButton = todoWindow.document.createElement("button");
+                addTaskButton.id = "addTaskButton";
+                addTaskButton.textContent = "Add Task";
+                body.appendChild(addTaskButton);
+
+                const taskList = todoWindow.document.createElement("ul");
+                taskList.id = "taskList";
+                taskList.classList.add("DoList");
+                body.appendChild(taskList);
+
+                let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+
+                function loadTasks() {
+                    taskList.innerHTML = '';
+                    tasks.forEach((task, index) => {
+                    const taskItem = todoWindow.document.createElement("li");
+                    taskItem.classList.add("DoItem");
+                    taskItem.textContent = task.text;
+
+                    if (task.completed) {
+                        taskItem.classList.add("TaskD");
+                    }
+
+                    taskItem.addEventListener('click', () => markTaskAsDone(index));
+
+                    const deleteButton = todoWindow.document.createElement("button");
+                    deleteButton.textContent = "Delete";
+                    deleteButton.classList.add("ActnB");
+                    deleteButton.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        deleteTask(index);
+                    });
+
+                    taskItem.appendChild(deleteButton);
+                    taskList.appendChild(taskItem);
+                    });
+                }
+
+                addTaskButton.addEventListener('click', () => {
+                    const taskText = taskInput.value.trim();
+                    if (taskText) {
+                    const newTask = { text: taskText, completed: false };
+                    tasks.push(newTask);
+                    localStorage.setItem('tasks', JSON.stringify(tasks));
+                    taskInput.value = '';
+                    loadTasks();
+                    }
+                });
+
+                function markTaskAsDone(index) {
+                    tasks[index].completed = !tasks[index].completed;
+                    localStorage.setItem('tasks', JSON.stringify(tasks));
+                    loadTasks();
+                }
+
+                function deleteTask(index) {
+                    tasks.splice(index, 1);
+                    localStorage.setItem('tasks', JSON.stringify(tasks));
+                    loadTasks();
+                }
+
+                window.onload = loadTasks;
+                }
+        </script>    
+    </body>
+</html>
